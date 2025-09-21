@@ -1,0 +1,38 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:wght@400;500;600;700&display=swap');
+:root {
+
+
+  //default layout
+  --default-layout-hearder-height: 60px;
+  --default-layout-width: 1150px;
+  --black: #000;
+  --text-color: #333;
+  --primary: rgb(253, 44, 85);
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+  font-family: 'TikTok Sans', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+button, input , [tabindex] {
+  outline: none;
+  border: none;
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
+}
