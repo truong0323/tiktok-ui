@@ -13,9 +13,11 @@
     height: 100%; 
     width: var(--default-layout-width);
     background-color: white;
+    padding: 0 var(--default-layout-horizontal-spacer);
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .logo {
     
@@ -92,3 +94,33 @@
 // .custom-btn {
 //     color: blue;
 // }
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+.more-btn {
+    font-size: 2rem;
+    margin-left: 28px;
+    background-color: transparent;
+    padding: 8px;
+    cursor: pointer;
+}
+.action-btn {
+    color: #161823;
+    background-color: transparent;
+    font-size: 2.6rem;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+.menu-items {
+    width: 224px;
+}
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: 12px;
+    cursor: pointer;
+}
